@@ -1,0 +1,176 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0056f9;
+}
+
+.logo-icon {
+    color: #0056f9;
+    font-size: 1.2rem;
+}
+
+.search-bar input {
+    padding: 0.5rem;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-register {
+    padding: 0.5rem 1rem;
+    background-color: #75a0f1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Main Layout */
+.content-container {
+    display: flex;
+    padding: 2rem;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 25%;
+    margin-right: 2rem;
+}
+
+.sidebar h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-content .intro h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.main-content .intro p {
+    color: #555;
+}
+
+.main-content .trending-topics {
+    margin-bottom: 2rem;
+}
+
+.main-content .trending-topics h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.main-content .trending-topics .topics button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0.5rem 0 0;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Blog Posts */
+.blog-posts article {
+    margin-bottom: 2rem;
+}
+
+.blog-posts h3 {
+    font-size: 1.25rem;
+    color: #0056f9;
+}
+
+.blog-posts .short-content {
+    color: #555;
+}
+
+.blog-posts .read-more {
+    color: #0056f9;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Newsletter */
+.newsletter {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.newsletter h2 {
+    margin-bottom: 1rem;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.newsletter input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+}
+
+.newsletter button {
+    padding: 0.5rem 1rem;
+    background-color: #0056f9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;
+}
+
+
+
